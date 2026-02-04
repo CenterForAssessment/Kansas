@@ -1,0 +1,470 @@
+
+Started abcSGP Tuesday February 03 21:03:34 2026
+
+
+	abcSGP(
+		 sgp_object = Kansas_SGP
+		state = KS
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP")
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE )
+
+
+Started prepareSGP Tuesday February 03 21:03:34 2026
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables
+		fix.duplicates = fix.duplicates
+		create.achievement.level = prepareSGP.create.achievement.level )
+
+
+Started abcSGP Tuesday February 03 21:04:09 2026
+
+
+	abcSGP(
+		 sgp_object = Kansas_Data_LONG
+		state = KS
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP")
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE )
+
+
+Started prepareSGP Tuesday February 03 21:04:09 2026
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables
+		fix.duplicates = fix.duplicates
+		create.achievement.level = prepareSGP.create.achievement.level )
+
+	NOTE: All values of observed data reside within the LOSS/HOSS values in the SGPstateData meta-data for KS.
+	NOTE: All values of observed data reside within the BOUNDARY values in the SGPstateData meta-data for KS.
+Finished prepareSGP Tuesday February 03 21:04:10 2026 in 1.378 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Tuesday February 03 21:04:10 2026
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		calculate.srs = calculate.srs
+		calculate.srs.baseline = calculate.srs.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt
+		fix.duplicates = fix.duplicates )
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:04:13 2026
+		Content Area: MATHEMATICS, Year: 2018, Grade Progression: 8, 10  (N=31,214)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:04:34 2026 in 20.363 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:04:34 2026
+		Content Area: MATHEMATICS, Year: 2018, Grade Progression: 6, 7, 8  (N=34,172)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:05:31 2026 in 57.298 Seconds
+
+
+Started abcSGP Tuesday February 03 21:07:42 2026
+
+
+	abcSGP(
+		 sgp_object = Kansas_Data_LONG
+		state = KS
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP")
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE
+		sgp.config = KS_2024.config )
+
+
+Started prepareSGP Tuesday February 03 21:07:43 2026
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables
+		fix.duplicates = fix.duplicates
+		create.achievement.level = prepareSGP.create.achievement.level )
+
+	NOTE: All values of observed data reside within the LOSS/HOSS values in the SGPstateData meta-data for KS.
+	NOTE: All values of observed data reside within the BOUNDARY values in the SGPstateData meta-data for KS.
+Finished prepareSGP Tuesday February 03 21:07:44 2026 in 1.389 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Tuesday February 03 21:07:44 2026
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		calculate.srs = calculate.srs
+		calculate.srs.baseline = calculate.srs.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt
+		fix.duplicates = fix.duplicates )
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:07:45 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 7, 8, 10  (N=33,434)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:08:32 2026 in 47.825 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:08:32 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 6, 7, 8  (N=34,565)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:09:32 2026 in 59.287 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:09:32 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 5, 6, 7  (N=33,526)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:10:27 2026 in 55.595 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:10:27 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 4, 5, 6  (N=33,703)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:11:22 2026 in 54.453 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:11:22 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 3, 4, 5  (N=33,529)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:12:18 2026 in 56.458 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:12:18 2026
+		Content Area: ELA, Year: 2024, Grade Progression: 3, 4  (N=33,240)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:12:42 2026 in 23.347 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:12:42 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 7, 8, 10  (N=33,404)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:13:34 2026 in 52.515 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:13:34 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 6, 7, 8  (N=34,683)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:14:35 2026 in 1 Minute, 0.999 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:14:35 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 5, 6, 7  (N=33,613)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:15:35 2026 in 59.705 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:15:35 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 4, 5, 6  (N=33,814)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:16:31 2026 in 56.101 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:16:31 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 3, 4, 5  (N=33,702)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:17:29 2026 in 57.581 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:17:29 2026
+		Content Area: MATHEMATICS, Year: 2024, Grade Progression: 3, 4  (N=33,405)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:17:53 2026 in 24.355 Seconds
+
+Finished analyzeSGP Tuesday February 03 21:17:54 2026 in 10 Minutes, 9.749 Seconds 
+
+Started combineSGP Tuesday February 03 21:17:54 2026
+Finished combineSGP Tuesday February 03 21:17:54 2026 in 0.411 Seconds 
+
+
+Started outputSGP Tuesday February 03 21:17:54 2026: Files produced from outputSGP saved in 'Data'
+
+
+
+	outputSGP(
+		 sgp_object = sgp_object
+		state = state
+		output.type = outputSGP.output.type
+		outputSGP_SUMMARY.years = years
+		outputSGP_SUMMARY.content_areas = content_areas
+		outputSGP_INDIVIDUAL.years = years
+		outputSGP_INDIVIDUAL.content_areas = content_areas
+		outputSGP.student.groups = intersect(names(sgp_object@Data), subset(sgp_object@Names, names.type == "demographic" & names.output == TRUE, select = names.provided, drop = TRUE))
+		outputSGP.directory = outputSGP.directory )
+
+	Started LONG data production in outputSGP Tuesday February 03 21:17:54 2026
+	Finished LONG data production in outputSGP Tuesday February 03 21:18:09 2026 in 14.361 Seconds 
+
+	Started LONG FINAL YEAR data production in outputSGP Tuesday February 03 21:18:09 2026
+	Finished LONG FINAL YEAR data production in outputSGP Tuesday February 03 21:18:11 2026 in 2.399 Seconds 
+
+	Started WIDE data production in outputSGP Tuesday February 03 21:18:11 2026
+	Finished WIDE data production in outputSGP Tuesday February 03 21:18:35 2026 in 23.786 Seconds 
+
+Finished outputSGP Tuesday February 03 21:18:35 2026 in 40.552 Seconds 
+
+Finished abcSGP Tuesday February 03 21:18:35 2026 in 10 Minutes, 52.266 Seconds 
+
+
+Started updateSGP Tuesday February 03 21:24:43 2026
+
+
+	updateSGP(
+		 what_sgp_object = Kansas_SGP
+		with_sgp_data_LONG = Kansas_Data_LONG_2025
+		state = KS
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "outputSGP")
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE
+		sgp.config = KS_2025.config )
+
+
+Started prepareSGP Tuesday February 03 21:24:43 2026
+
+
+	prepareSGP(
+		 data = with_sgp_data_LONG
+		state = state
+		create.additional.variables = FALSE
+		fix.duplicates = NULL )
+
+	NOTE: All values of observed data reside within the LOSS/HOSS values in the SGPstateData meta-data for KS.
+	NOTE: All values of observed data reside within the BOUNDARY values in the SGPstateData meta-data for KS.
+Finished prepareSGP Tuesday February 03 21:24:43 2026 in 0.089 Seconds 
+
+
+Started abcSGP Tuesday February 03 21:24:44 2026
+
+
+	abcSGP(
+		 sgp_object = what_sgp_object
+		state = state
+		steps = steps
+		years = update.years
+		content_areas = update.content_areas
+		grades = update.grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.target.scale.scores = sgp.target.scale.scores
+		sgp.target.scale.scores.only = sgp.target.scale.scores.only
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		parallel.config = parallel.config
+		save.intermediate.results = save.intermediate.results
+		save.old.summaries = FALSE
+		sgPlot.demo.report = sgPlot.demo.report
+		sgp.config = sgp.config
+		plot.types = plot.types
+		outputSGP.output.type = outputSGP.output.type
+		outputSGP.directory = outputSGP.directory
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		get.cohort.data.info = get.cohort.data.info
+		SGPt = SGPt
+		fix.duplicates = fix.duplicates )
+
+
+Started prepareSGP Tuesday February 03 21:24:44 2026
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables
+		fix.duplicates = fix.duplicates
+		create.achievement.level = prepareSGP.create.achievement.level )
+
+	NOTE: All values of observed data reside within the LOSS/HOSS values in the SGPstateData meta-data for KS.
+	NOTE: All values of observed data reside within the BOUNDARY values in the SGPstateData meta-data for KS.
+Finished prepareSGP Tuesday February 03 21:24:45 2026 in 1.72 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Tuesday February 03 21:24:58 2026
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		calculate.srs = calculate.srs
+		calculate.srs.baseline = calculate.srs.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt
+		fix.duplicates = fix.duplicates )
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:24:59 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 7, 8, 10  (N=33,129)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:25:51 2026 in 51.812 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:25:51 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 6, 7, 8  (N=33,505)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:26:49 2026 in 57.963 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:26:49 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 5, 6, 7  (N=33,654)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:27:44 2026 in 55.156 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:27:44 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 4, 5, 6  (N=33,393)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:28:37 2026 in 52.785 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:28:37 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 3, 4, 5  (N=33,373)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:29:31 2026 in 53.989 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:29:31 2026
+		Content Area: ELA, Year: 2025, Grade Progression: 3, 4  (N=32,335)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:29:52 2026 in 20.887 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:29:52 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 7, 8, 10  (N=33,142)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:30:46 2026 in 53.783 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:30:46 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 6, 7, 8  (N=33,690)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:31:42 2026 in 56.632 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:31:42 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 5, 6, 7  (N=33,834)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:32:38 2026 in 56.061 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:32:38 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 4, 5, 6  (N=33,659)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:33:33 2026 in 54.434 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:33:33 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 3, 4, 5  (N=33,650)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:34:26 2026 in 52.792 Seconds
+
+	Started studentGrowthPercentiles: Tuesday February 03 21:34:26 2026
+		Content Area: MATHEMATICS, Year: 2025, Grade Progression: 3, 4  (N=32,659)
+	Finished studentGrowthPercentiles: Tuesday February 03 21:34:48 2026 in 21.8 Seconds
+
+Finished analyzeSGP Tuesday February 03 21:34:48 2026 in 9 Minutes, 49.693 Seconds 
+
+Started combineSGP Tuesday February 03 21:35:01 2026
+Finished combineSGP Tuesday February 03 21:35:01 2026 in 0.158 Seconds 
+
+
+Started outputSGP Tuesday February 03 21:35:15 2026: Files produced from outputSGP saved in 'Data'
+
+
+
+	outputSGP(
+		 sgp_object = sgp_object
+		state = state
+		output.type = outputSGP.output.type
+		outputSGP_SUMMARY.years = years
+		outputSGP_SUMMARY.content_areas = content_areas
+		outputSGP_INDIVIDUAL.years = years
+		outputSGP_INDIVIDUAL.content_areas = content_areas
+		outputSGP.student.groups = intersect(names(sgp_object@Data), subset(sgp_object@Names, names.type == "demographic" & names.output == TRUE, select = names.provided, drop = TRUE))
+		outputSGP.directory = outputSGP.directory )
+
+	Started LONG data production in outputSGP Tuesday February 03 21:35:15 2026
+	Finished LONG data production in outputSGP Tuesday February 03 21:35:32 2026 in 16.225 Seconds 
+
+	Started LONG FINAL YEAR data production in outputSGP Tuesday February 03 21:35:32 2026
+	Finished LONG FINAL YEAR data production in outputSGP Tuesday February 03 21:35:34 2026 in 2.241 Seconds 
+
+	Started WIDE data production in outputSGP Tuesday February 03 21:35:34 2026
+	Finished WIDE data production in outputSGP Tuesday February 03 21:36:00 2026 in 26.68 Seconds 
+
+Finished outputSGP Tuesday February 03 21:36:00 2026 in 45.149 Seconds 
+
+Finished abcSGP Tuesday February 03 21:36:00 2026 in 11 Minutes, 16.745 Seconds 
+
+Finished updateSGP Tuesday February 03 21:36:00 2026 in 11 Minutes, 17.282 Seconds 
+
